@@ -18,12 +18,9 @@ public class HomePageTest extends BaseTest {
         //page.getPageInstance(HomePage.class).gotoSite("https://customer.qa.accelerate.cinchhs.com/account");
         page.getPageInstance(HomePage.class).gotoSite(my_url);
         Thread.sleep(6000);
-        System.out.println("ZAP SCAN TEST :: " + driver.getCurrentUrl());
-        Thread.sleep(5000);
-        // ZapScan.spider(my_url);
-        ZapScan.passiveScan(my_url);
-        // Thread.sleep(5000);
-        ZapScan.activeScan(my_url);
+        CustomSoftAssert.axeSoftAssert(CheckAxe.checkAxe(driver), softAssert);
+
+
 
 
     }
