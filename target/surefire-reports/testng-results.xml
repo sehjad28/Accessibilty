@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ZAP Test Suite" duration-ms="26034" started-at="2023-02-08T13:11:23Z" finished-at="2023-02-08T13:11:49Z">
+    <groups>
+    </groups>
+    <test name="ZAP TEST" duration-ms="26034" started-at="2023-02-08T13:11:23Z" finished-at="2023-02-08T13:11:49Z">
+      <class name="com.project.home.HomePageTest">
+        <test-method status="PASS" signature="startAppiumServer(java.lang.String, java.lang.String)[pri:0, instance:com.project.home.HomePageTest@473b3b7a]" name="startAppiumServer" is-config="true" duration-ms="74" started-at="2023-02-08T13:11:23Z" finished-at="2023-02-08T13:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ZAP_PROXY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppiumServer -->
+        <test-method status="PASS" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.project.home.HomePageTest@473b3b7a]" name="setupDriver" is-config="true" duration-ms="5028" started-at="2023-02-08T13:11:23Z" finished-at="2023-02-08T13:11:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ZAP_PROXY]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.project.home.HomePageTest@473b3b7a]" name="test" duration-ms="18235" started-at="2023-02-08T13:11:28Z" finished-at="2023-02-08T13:11:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardownDriver()[pri:0, instance:com.project.home.HomePageTest@473b3b7a]" name="teardownDriver" is-config="true" duration-ms="801" started-at="2023-02-08T13:11:46Z" finished-at="2023-02-08T13:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownDriver -->
+        <test-method status="PASS" signature="stopAppiumServer(java.lang.String, java.lang.String)[pri:0, instance:com.project.home.HomePageTest@473b3b7a]" name="stopAppiumServer" is-config="true" duration-ms="1714" started-at="2023-02-08T13:11:47Z" finished-at="2023-02-08T13:11:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ZAP_PROXY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppiumServer -->
+      </class> <!-- com.project.home.HomePageTest -->
+    </test> <!-- ZAP TEST -->
+  </suite> <!-- ZAP Test Suite -->
+</testng-results>
