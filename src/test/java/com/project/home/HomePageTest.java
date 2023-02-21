@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 @Listeners({ TestListener.class })
 public class HomePageTest extends BaseTest {
-
+    SoftAssert softAssert = new SoftAssert();
     @Test
     public void test() throws Exception {
        // String my_url = "https://www.hackthissite.org/";
@@ -19,7 +19,7 @@ public class HomePageTest extends BaseTest {
         page.getPageInstance(HomePage.class).gotoSite(my_url);
         Thread.sleep(6000);
         CustomSoftAssert.axeSoftAssert(CheckAxe.checkAxe(driver), softAssert);
-
+        softAssert.assertAll();
 
 
 
